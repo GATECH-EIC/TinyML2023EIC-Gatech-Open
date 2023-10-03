@@ -1,8 +1,2 @@
-Training/ckpt/
-Training/nni_expr/
-Training/result/
-Training/20_10/
+.vscode/
 Training/__pycache__/
-#Training/tinyml_contest_data_training/
-tinyml_contest_data_training_2022/
-tinyml_contest_data_training_2023/
