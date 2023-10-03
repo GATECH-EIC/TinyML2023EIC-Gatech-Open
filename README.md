@@ -8,4 +8,4 @@
 
 ## Guidelines
 > + [Training](doc/training.md)
-> + [Deployment Evaluation](doc/deploy.md)
+> + [Deployment](doc/deploy.md)
