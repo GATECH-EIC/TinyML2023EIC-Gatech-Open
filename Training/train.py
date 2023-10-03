@@ -10,7 +10,7 @@ from keras.optimizers import Adam
 from utils import stats_report
 from swa.tfkeras import SWA
 
-result_dir = "model_bset"
+result_dir = "model_best"
 
 def analyse(file_path, nni_param, verbose):
     if verbose:
@@ -683,7 +683,7 @@ if __name__ == '__main__':
             r.wait()
             if not r.successful():
                 print(r.get())
-                break
+                exit(0)
             progress_bar.update(1)
 
         active_flag = False

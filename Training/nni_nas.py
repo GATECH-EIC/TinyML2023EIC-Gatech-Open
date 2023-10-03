@@ -22,9 +22,7 @@ search_space_model_features = {
 
 command_modelfeatures = "python select_model_dev.py \
     --model model_features \
-    --enable_nni True \
-    --enable_fgs False \
-    --parallel False"
+    --enable_nni True"
 
 experiment = Experiment('local')
 experiment.config.experiment_name = 'nni_tinyml_test'

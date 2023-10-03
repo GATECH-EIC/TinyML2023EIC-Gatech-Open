@@ -1,0 +1,213 @@
+[2023-10-03 17:59:07] INFO (main) Start NNI manager
+[2023-10-03 17:59:07] INFO (NNIDataStore) Datastore initialization done
+[2023-10-03 17:59:07] INFO (RestServer) Starting REST server at port 23400, URL prefix: "/"
+[2023-10-03 17:59:07] INFO (RestServer) REST server started.
+[2023-10-03 17:59:08] INFO (NNIManager) Starting experiment: 25kodtfl
+[2023-10-03 17:59:08] INFO (NNIManager) Setup training service...
+[2023-10-03 17:59:08] INFO (LocalTrainingService) Construct local machine training service.
+[2023-10-03 17:59:08] INFO (NNIManager) Setup tuner...
+[2023-10-03 17:59:08] INFO (NNIManager) Change NNIManager status from: INITIALIZED to: RUNNING
+[2023-10-03 17:59:08] INFO (NNIManager) Add event listeners
+[2023-10-03 17:59:08] INFO (LocalTrainingService) Run local machine training service.
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: ID, 
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 0, "parameter_source": "algorithm", "parameters": {"lr": 0.02571076878816991, "epoch": 56.0, "dropout1": 0.28586319444751435, "dropout2": 0.106132767004106, "dense1": 3.0, "dense2": 4.0, "factor_0": 1.4823494632709973, "factor_1": 3.1855336348634733, "factor_2": 2.5348078179597224, "factor_3": 2.3852282472204243, "factor_4": 1.2387560026150028, "threshold_0": 10.458229647407585, "threshold_1": 9.302913395508678, "threshold_2": 11.427751522022703, "threshold_3": 7.882099617828126, "threshold_4": 12.452584545300356}, "parameter_index": 0}
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 1, "parameter_source": "algorithm", "parameters": {"lr": 0.00044653578719856915, "epoch": 39.0, "dropout1": 0.2791388624134304, "dropout2": 0.17811085624155687, "dense1": 5.0, "dense2": 10.0, "factor_0": 1.8249898088248966, "factor_1": 1.7024764128599146, "factor_2": 1.5943696187921976, "factor_3": 1.4727964554947859, "factor_4": 1.6116700915423778, "threshold_0": 10.64860312523372, "threshold_1": 9.052038246462988, "threshold_2": 8.120475781235127, "threshold_3": 10.714043868353805, "threshold_4": 9.250562637155284}, "parameter_index": 0}
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 2, "parameter_source": "algorithm", "parameters": {"lr": 0.24371277576529912, "epoch": 68.0, "dropout1": 0.18600664102292838, "dropout2": 0.19265654289216344, "dense1": 7.0, "dense2": 8.0, "factor_0": 1.7249652217872484, "factor_1": 1.007101781879274, "factor_2": 2.425586093690502, "factor_3": 1.1379834024855306, "factor_4": 1.7419454959977863, "threshold_0": 12.633994661166394, "threshold_1": 10.597614630527339, "threshold_2": 10.609796487832883, "threshold_3": 7.937697932980011, "threshold_4": 8.0508967594839}, "parameter_index": 0}
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 3, "parameter_source": "algorithm", "parameters": {"lr": 0.034200544321742, "epoch": 46.0, "dropout1": 0.10539308947760476, "dropout2": 0.20494995633913227, "dense1": 9.0, "dense2": 4.0, "factor_0": 3.291372188817462, "factor_1": 1.5577895155996646, "factor_2": 2.7708569119258035, "factor_3": 2.192068635985274, "factor_4": 1.476967578796826, "threshold_0": 9.603791489572322, "threshold_1": 10.338859411084574, "threshold_2": 11.8333202914705, "threshold_3": 8.745417641209881, "threshold_4": 7.951841902544611}, "parameter_index": 0}
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 4, "parameter_source": "algorithm", "parameters": {"lr": 0.0001605525272700106, "epoch": 70.0, "dropout1": 0.28109954221175604, "dropout2": 0.11350679219806932, "dense1": 9.0, "dense2": 9.0, "factor_0": 3.855572283777405, "factor_1": 3.526858873172583, "factor_2": 3.0013106725328047, "factor_3": 1.840158276853748, "factor_4": 1.9490144327156464, "threshold_0": 10.313154983323699, "threshold_1": 9.489979267252817, "threshold_2": 9.41055213430256, "threshold_3": 11.922117701622632, "threshold_4": 12.490688299750062}, "parameter_index": 0}
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 5, "parameter_source": "algorithm", "parameters": {"lr": 0.0016798147448553657, "epoch": 51.0, "dropout1": 0.2679971168103843, "dropout2": 0.23688542353305098, "dense1": 9.0, "dense2": 4.0, "factor_0": 2.662670884655914, "factor_1": 2.7666004813893195, "factor_2": 2.6482445739741873, "factor_3": 2.0258579751752253, "factor_4": 1.984188199662253, "threshold_0": 12.48230392424206, "threshold_1": 12.781559300646336, "threshold_2": 7.699267009039052, "threshold_3": 9.506420354232814, "threshold_4": 11.16764776673501}, "parameter_index": 0}
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 6, "parameter_source": "algorithm", "parameters": {"lr": 0.00038166801579684326, "epoch": 46.0, "dropout1": 0.16419310865278214, "dropout2": 0.18779832686459136, "dense1": 4.0, "dense2": 4.0, "factor_0": 1.746259632050821, "factor_1": 1.9349610590531412, "factor_2": 2.390533943125681, "factor_3": 3.7737803273898964, "factor_4": 1.700115648527418, "threshold_0": 12.988237512195028, "threshold_1": 7.598887377188739, "threshold_2": 9.150606201745497, "threshold_3": 12.905276203639122, "threshold_4": 8.94951600117222}, "parameter_index": 0}
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 7, "parameter_source": "algorithm", "parameters": {"lr": 0.05093108028799894, "epoch": 41.0, "dropout1": 0.2977466866973587, "dropout2": 0.17922455350730704, "dense1": 5.0, "dense2": 9.0, "factor_0": 1.6033212431654444, "factor_1": 2.695378069107061, "factor_2": 3.639334275151631, "factor_3": 3.993955347392598, "factor_4": 1.5049463114948765, "threshold_0": 7.476672716426899, "threshold_1": 11.295410857689589, "threshold_2": 10.643608284623518, "threshold_3": 9.17495974210962, "threshold_4": 8.468672303312063}, "parameter_index": 0}
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 8, "parameter_source": "algorithm", "parameters": {"lr": 0.21464882640722954, "epoch": 55.0, "dropout1": 0.11440104196750461, "dropout2": 0.281021185707245, "dense1": 8.0, "dense2": 6.0, "factor_0": 3.2259548031682184, "factor_1": 2.578705110320142, "factor_2": 3.3581351969248217, "factor_3": 1.6724805411533676, "factor_4": 2.6077160075117907, "threshold_0": 12.777223548824345, "threshold_1": 10.898480467091838, "threshold_2": 10.371305859688484, "threshold_3": 10.698632287812206, "threshold_4": 10.800493520986405}, "parameter_index": 0}
+[2023-10-03 17:59:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 9, "parameter_source": "algorithm", "parameters": {"lr": 0.14791421426523665, "epoch": 36.0, "dropout1": 0.26534847182727017, "dropout2": 0.13057035239458373, "dense1": 5.0, "dense2": 5.0, "factor_0": 2.418601742731018, "factor_1": 2.0043404663307243, "factor_2": 1.0374007677629296, "factor_3": 3.2217392899859103, "factor_4": 1.2215493482257629, "threshold_0": 9.114818276034766, "threshold_1": 8.972470392413994, "threshold_2": 9.164678698438333, "threshold_3": 11.649597559436737, "threshold_4": 10.952917549751756}, "parameter_index": 0}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 0,
+  hyperParameters: {
+    value: '{"parameter_id": 0, "parameter_source": "algorithm", "parameters": {"lr": 0.02571076878816991, "epoch": 56.0, "dropout1": 0.28586319444751435, "dropout2": 0.106132767004106, "dense1": 3.0, "dense2": 4.0, "factor_0": 1.4823494632709973, "factor_1": 3.1855336348634733, "factor_2": 2.5348078179597224, "factor_3": 2.3852282472204243, "factor_4": 1.2387560026150028, "threshold_0": 10.458229647407585, "threshold_1": 9.302913395508678, "threshold_2": 11.427751522022703, "threshold_3": 7.882099617828126, "threshold_4": 12.452584545300356}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 1,
+  hyperParameters: {
+    value: '{"parameter_id": 1, "parameter_source": "algorithm", "parameters": {"lr": 0.00044653578719856915, "epoch": 39.0, "dropout1": 0.2791388624134304, "dropout2": 0.17811085624155687, "dense1": 5.0, "dense2": 10.0, "factor_0": 1.8249898088248966, "factor_1": 1.7024764128599146, "factor_2": 1.5943696187921976, "factor_3": 1.4727964554947859, "factor_4": 1.6116700915423778, "threshold_0": 10.64860312523372, "threshold_1": 9.052038246462988, "threshold_2": 8.120475781235127, "threshold_3": 10.714043868353805, "threshold_4": 9.250562637155284}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 2,
+  hyperParameters: {
+    value: '{"parameter_id": 2, "parameter_source": "algorithm", "parameters": {"lr": 0.24371277576529912, "epoch": 68.0, "dropout1": 0.18600664102292838, "dropout2": 0.19265654289216344, "dense1": 7.0, "dense2": 8.0, "factor_0": 1.7249652217872484, "factor_1": 1.007101781879274, "factor_2": 2.425586093690502, "factor_3": 1.1379834024855306, "factor_4": 1.7419454959977863, "threshold_0": 12.633994661166394, "threshold_1": 10.597614630527339, "threshold_2": 10.609796487832883, "threshold_3": 7.937697932980011, "threshold_4": 8.0508967594839}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 3,
+  hyperParameters: {
+    value: '{"parameter_id": 3, "parameter_source": "algorithm", "parameters": {"lr": 0.034200544321742, "epoch": 46.0, "dropout1": 0.10539308947760476, "dropout2": 0.20494995633913227, "dense1": 9.0, "dense2": 4.0, "factor_0": 3.291372188817462, "factor_1": 1.5577895155996646, "factor_2": 2.7708569119258035, "factor_3": 2.192068635985274, "factor_4": 1.476967578796826, "threshold_0": 9.603791489572322, "threshold_1": 10.338859411084574, "threshold_2": 11.8333202914705, "threshold_3": 8.745417641209881, "threshold_4": 7.951841902544611}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 4,
+  hyperParameters: {
+    value: '{"parameter_id": 4, "parameter_source": "algorithm", "parameters": {"lr": 0.0001605525272700106, "epoch": 70.0, "dropout1": 0.28109954221175604, "dropout2": 0.11350679219806932, "dense1": 9.0, "dense2": 9.0, "factor_0": 3.855572283777405, "factor_1": 3.526858873172583, "factor_2": 3.0013106725328047, "factor_3": 1.840158276853748, "factor_4": 1.9490144327156464, "threshold_0": 10.313154983323699, "threshold_1": 9.489979267252817, "threshold_2": 9.41055213430256, "threshold_3": 11.922117701622632, "threshold_4": 12.490688299750062}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 5,
+  hyperParameters: {
+    value: '{"parameter_id": 5, "parameter_source": "algorithm", "parameters": {"lr": 0.0016798147448553657, "epoch": 51.0, "dropout1": 0.2679971168103843, "dropout2": 0.23688542353305098, "dense1": 9.0, "dense2": 4.0, "factor_0": 2.662670884655914, "factor_1": 2.7666004813893195, "factor_2": 2.6482445739741873, "factor_3": 2.0258579751752253, "factor_4": 1.984188199662253, "threshold_0": 12.48230392424206, "threshold_1": 12.781559300646336, "threshold_2": 7.699267009039052, "threshold_3": 9.506420354232814, "threshold_4": 11.16764776673501}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 6,
+  hyperParameters: {
+    value: '{"parameter_id": 6, "parameter_source": "algorithm", "parameters": {"lr": 0.00038166801579684326, "epoch": 46.0, "dropout1": 0.16419310865278214, "dropout2": 0.18779832686459136, "dense1": 4.0, "dense2": 4.0, "factor_0": 1.746259632050821, "factor_1": 1.9349610590531412, "factor_2": 2.390533943125681, "factor_3": 3.7737803273898964, "factor_4": 1.700115648527418, "threshold_0": 12.988237512195028, "threshold_1": 7.598887377188739, "threshold_2": 9.150606201745497, "threshold_3": 12.905276203639122, "threshold_4": 8.94951600117222}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 7,
+  hyperParameters: {
+    value: '{"parameter_id": 7, "parameter_source": "algorithm", "parameters": {"lr": 0.05093108028799894, "epoch": 41.0, "dropout1": 0.2977466866973587, "dropout2": 0.17922455350730704, "dense1": 5.0, "dense2": 9.0, "factor_0": 1.6033212431654444, "factor_1": 2.695378069107061, "factor_2": 3.639334275151631, "factor_3": 3.993955347392598, "factor_4": 1.5049463114948765, "threshold_0": 7.476672716426899, "threshold_1": 11.295410857689589, "threshold_2": 10.643608284623518, "threshold_3": 9.17495974210962, "threshold_4": 8.468672303312063}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 8,
+  hyperParameters: {
+    value: '{"parameter_id": 8, "parameter_source": "algorithm", "parameters": {"lr": 0.21464882640722954, "epoch": 55.0, "dropout1": 0.11440104196750461, "dropout2": 0.281021185707245, "dense1": 8.0, "dense2": 6.0, "factor_0": 3.2259548031682184, "factor_1": 2.578705110320142, "factor_2": 3.3581351969248217, "factor_3": 1.6724805411533676, "factor_4": 2.6077160075117907, "threshold_0": 12.777223548824345, "threshold_1": 10.898480467091838, "threshold_2": 10.371305859688484, "threshold_3": 10.698632287812206, "threshold_4": 10.800493520986405}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 9,
+  hyperParameters: {
+    value: '{"parameter_id": 9, "parameter_source": "algorithm", "parameters": {"lr": 0.14791421426523665, "epoch": 36.0, "dropout1": 0.26534847182727017, "dropout2": 0.13057035239458373, "dense1": 5.0, "dense2": 5.0, "factor_0": 2.418601742731018, "factor_1": 2.0043404663307243, "factor_2": 1.0374007677629296, "factor_3": 3.2217392899859103, "factor_4": 1.2215493482257629, "threshold_0": 9.114818276034766, "threshold_1": 8.972470392413994, "threshold_2": 9.164678698438333, "threshold_3": 11.649597559436737, "threshold_4": 10.952917549751756}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job sYGGX status changed from WAITING to RUNNING
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job Pxdzs status changed from WAITING to RUNNING
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job p2wug status changed from WAITING to RUNNING
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job LTmCq status changed from WAITING to RUNNING
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job PjYop status changed from WAITING to RUNNING
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job N28Ny status changed from WAITING to RUNNING
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job rf7rY status changed from WAITING to RUNNING
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job R4PDx status changed from WAITING to RUNNING
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job dmi9F status changed from WAITING to RUNNING
+[2023-10-03 17:59:24] INFO (NNIManager) Trial job zFmMw status changed from WAITING to RUNNING
+[2023-10-03 18:07:28] INFO (NNIManager) Trial job zFmMw status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:07:28] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 10, "parameter_source": "algorithm", "parameters": {"lr": 0.014941903664201235, "epoch": 37.0, "dropout1": 0.10632282150035902, "dropout2": 0.10083250771485784, "dense1": 5.0, "dense2": 10.0, "factor_0": 2.4383894273479765, "factor_1": 2.4278545691561724, "factor_2": 2.4757858663014067, "factor_3": 3.1272514398066447, "factor_4": 3.7021448388397955, "threshold_0": 9.01701480004804, "threshold_1": 8.374047637926811, "threshold_2": 8.474241990751747, "threshold_3": 9.404184731351421, "threshold_4": 12.075382128517127}, "parameter_index": 0}
+[2023-10-03 18:07:34] INFO (NNIManager) Trial job LTmCq status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:07:34] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 10,
+  hyperParameters: {
+    value: '{"parameter_id": 10, "parameter_source": "algorithm", "parameters": {"lr": 0.014941903664201235, "epoch": 37.0, "dropout1": 0.10632282150035902, "dropout2": 0.10083250771485784, "dense1": 5.0, "dense2": 10.0, "factor_0": 2.4383894273479765, "factor_1": 2.4278545691561724, "factor_2": 2.4757858663014067, "factor_3": 3.1272514398066447, "factor_4": 3.7021448388397955, "threshold_0": 9.01701480004804, "threshold_1": 8.374047637926811, "threshold_2": 8.474241990751747, "threshold_3": 9.404184731351421, "threshold_4": 12.075382128517127}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 18:07:34] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 11, "parameter_source": "algorithm", "parameters": {"lr": 0.005821440951580703, "epoch": 52.0, "dropout1": 0.13308768205739438, "dropout2": 0.10427806895058025, "dense1": 7.0, "dense2": 3.0, "factor_0": 1.1874370247406345, "factor_1": 3.961426150704258, "factor_2": 2.6218437134369825, "factor_3": 1.941206126922367, "factor_4": 3.916445307374616, "threshold_0": 12.729683234855866, "threshold_1": 10.504331362810467, "threshold_2": 11.070174421288272, "threshold_3": 7.066698806559657, "threshold_4": 11.231499036042882}, "parameter_index": 0}
+[2023-10-03 18:07:34] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 11,
+  hyperParameters: {
+    value: '{"parameter_id": 11, "parameter_source": "algorithm", "parameters": {"lr": 0.005821440951580703, "epoch": 52.0, "dropout1": 0.13308768205739438, "dropout2": 0.10427806895058025, "dense1": 7.0, "dense2": 3.0, "factor_0": 1.1874370247406345, "factor_1": 3.961426150704258, "factor_2": 2.6218437134369825, "factor_3": 1.941206126922367, "factor_4": 3.916445307374616, "threshold_0": 12.729683234855866, "threshold_1": 10.504331362810467, "threshold_2": 11.070174421288272, "threshold_3": 7.066698806559657, "threshold_4": 11.231499036042882}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 18:07:39] INFO (NNIManager) Trial job sYGGX status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:07:39] INFO (NNIManager) Trial job Pxdzs status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:07:39] INFO (NNIManager) Trial job KCbuX status changed from WAITING to RUNNING
+[2023-10-03 18:07:39] INFO (NNIManager) Trial job ze9ez status changed from WAITING to RUNNING
+[2023-10-03 18:07:39] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 12, "parameter_source": "algorithm", "parameters": {"lr": 0.038685552550819326, "epoch": 51.0, "dropout1": 0.22403020828641868, "dropout2": 0.17273834175360894, "dense1": 3.0, "dense2": 4.0, "factor_0": 1.10281470388761, "factor_1": 1.5962490780069025, "factor_2": 2.6179371501366773, "factor_3": 1.9851061748212735, "factor_4": 3.0303822434895356, "threshold_0": 7.758563181364155, "threshold_1": 8.565713256391442, "threshold_2": 7.335396486597199, "threshold_3": 12.02913419975455, "threshold_4": 10.438706094882331}, "parameter_index": 0}
+[2023-10-03 18:07:39] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 13, "parameter_source": "algorithm", "parameters": {"lr": 0.00018264938059797903, "epoch": 66.0, "dropout1": 0.13722309247652525, "dropout2": 0.22324538889315187, "dense1": 3.0, "dense2": 6.0, "factor_0": 3.6117373800580133, "factor_1": 2.7001111940856592, "factor_2": 2.150335773689063, "factor_3": 1.1249255422960411, "factor_4": 2.4352920943647627, "threshold_0": 9.501477243294635, "threshold_1": 10.518556115634798, "threshold_2": 7.539961296161922, "threshold_3": 11.371073753317425, "threshold_4": 8.59842846502089}, "parameter_index": 0}
+[2023-10-03 18:07:44] INFO (NNIManager) Trial job rf7rY status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:07:44] INFO (NNIManager) Trial job R4PDx status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:07:44] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 12,
+  hyperParameters: {
+    value: '{"parameter_id": 12, "parameter_source": "algorithm", "parameters": {"lr": 0.038685552550819326, "epoch": 51.0, "dropout1": 0.22403020828641868, "dropout2": 0.17273834175360894, "dense1": 3.0, "dense2": 4.0, "factor_0": 1.10281470388761, "factor_1": 1.5962490780069025, "factor_2": 2.6179371501366773, "factor_3": 1.9851061748212735, "factor_4": 3.0303822434895356, "threshold_0": 7.758563181364155, "threshold_1": 8.565713256391442, "threshold_2": 7.335396486597199, "threshold_3": 12.02913419975455, "threshold_4": 10.438706094882331}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 18:07:44] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 14, "parameter_source": "algorithm", "parameters": {"lr": 0.18685223057441894, "epoch": 38.0, "dropout1": 0.17223798830849102, "dropout2": 0.21846215071236802, "dense1": 4.0, "dense2": 4.0, "factor_0": 1.0648292850607177, "factor_1": 1.8046611461091056, "factor_2": 2.596224659749453, "factor_3": 2.5081645644715778, "factor_4": 2.478060684451375, "threshold_0": 9.763021512756735, "threshold_1": 7.447400830889048, "threshold_2": 7.266364244257211, "threshold_3": 7.771676694863416, "threshold_4": 9.65317462342059}, "parameter_index": 0}
+[2023-10-03 18:07:44] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 13,
+  hyperParameters: {
+    value: '{"parameter_id": 13, "parameter_source": "algorithm", "parameters": {"lr": 0.00018264938059797903, "epoch": 66.0, "dropout1": 0.13722309247652525, "dropout2": 0.22324538889315187, "dense1": 3.0, "dense2": 6.0, "factor_0": 3.6117373800580133, "factor_1": 2.7001111940856592, "factor_2": 2.150335773689063, "factor_3": 1.1249255422960411, "factor_4": 2.4352920943647627, "threshold_0": 9.501477243294635, "threshold_1": 10.518556115634798, "threshold_2": 7.539961296161922, "threshold_3": 11.371073753317425, "threshold_4": 8.59842846502089}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 18:07:44] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 15, "parameter_source": "algorithm", "parameters": {"lr": 0.00043921534741996537, "epoch": 43.0, "dropout1": 0.12289377431383253, "dropout2": 0.27141660095447984, "dense1": 3.0, "dense2": 3.0, "factor_0": 1.0774496673699048, "factor_1": 1.2962532788098429, "factor_2": 1.7451570852406029, "factor_3": 3.165368327463971, "factor_4": 2.6848955308869824, "threshold_0": 9.589052014898497, "threshold_1": 10.649959538278733, "threshold_2": 12.05650321113462, "threshold_3": 10.998855835576228, "threshold_4": 9.585592827399552}, "parameter_index": 0}
+[2023-10-03 18:07:44] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 14,
+  hyperParameters: {
+    value: '{"parameter_id": 14, "parameter_source": "algorithm", "parameters": {"lr": 0.18685223057441894, "epoch": 38.0, "dropout1": 0.17223798830849102, "dropout2": 0.21846215071236802, "dense1": 4.0, "dense2": 4.0, "factor_0": 1.0648292850607177, "factor_1": 1.8046611461091056, "factor_2": 2.596224659749453, "factor_3": 2.5081645644715778, "factor_4": 2.478060684451375, "threshold_0": 9.763021512756735, "threshold_1": 7.447400830889048, "threshold_2": 7.266364244257211, "threshold_3": 7.771676694863416, "threshold_4": 9.65317462342059}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 18:07:44] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 15,
+  hyperParameters: {
+    value: '{"parameter_id": 15, "parameter_source": "algorithm", "parameters": {"lr": 0.00043921534741996537, "epoch": 43.0, "dropout1": 0.12289377431383253, "dropout2": 0.27141660095447984, "dense1": 3.0, "dense2": 3.0, "factor_0": 1.0774496673699048, "factor_1": 1.2962532788098429, "factor_2": 1.7451570852406029, "factor_3": 3.165368327463971, "factor_4": 2.6848955308869824, "threshold_0": 9.589052014898497, "threshold_1": 10.649959538278733, "threshold_2": 12.05650321113462, "threshold_3": 10.998855835576228, "threshold_4": 9.585592827399552}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 18:07:49] INFO (NNIManager) Trial job Kfw0y status changed from WAITING to RUNNING
+[2023-10-03 18:07:49] INFO (NNIManager) Trial job U5EIB status changed from WAITING to RUNNING
+[2023-10-03 18:07:49] INFO (NNIManager) Trial job kzV6O status changed from WAITING to RUNNING
+[2023-10-03 18:07:49] INFO (NNIManager) Trial job CgpJV status changed from WAITING to RUNNING
+[2023-10-03 18:08:04] INFO (NNIManager) Trial job dmi9F status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:08:04] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 16, "parameter_source": "algorithm", "parameters": {"lr": 0.0009558486981408925, "epoch": 61.0, "dropout1": 0.13925177610561498, "dropout2": 0.249741951945279, "dense1": 4.0, "dense2": 9.0, "factor_0": 2.622036108105712, "factor_1": 2.0559676985030007, "factor_2": 3.050323386080176, "factor_3": 3.0207364788795177, "factor_4": 2.926612880071963, "threshold_0": 7.287794992468277, "threshold_1": 11.950585040244324, "threshold_2": 10.08294567288164, "threshold_3": 8.55376285916382, "threshold_4": 9.520763948448252}, "parameter_index": 0}
+[2023-10-03 18:08:09] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 16,
+  hyperParameters: {
+    value: '{"parameter_id": 16, "parameter_source": "algorithm", "parameters": {"lr": 0.0009558486981408925, "epoch": 61.0, "dropout1": 0.13925177610561498, "dropout2": 0.249741951945279, "dense1": 4.0, "dense2": 9.0, "factor_0": 2.622036108105712, "factor_1": 2.0559676985030007, "factor_2": 3.050323386080176, "factor_3": 3.0207364788795177, "factor_4": 2.926612880071963, "threshold_0": 7.287794992468277, "threshold_1": 11.950585040244324, "threshold_2": 10.08294567288164, "threshold_3": 8.55376285916382, "threshold_4": 9.520763948448252}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 18:08:14] INFO (NNIManager) Trial job LBcIR status changed from WAITING to RUNNING
+[2023-10-03 18:08:19] INFO (NNIManager) Trial job N28Ny status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:08:19] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 17, "parameter_source": "algorithm", "parameters": {"lr": 0.001301158337532704, "epoch": 69.0, "dropout1": 0.20488138328811506, "dropout2": 0.2343610990181826, "dense1": 9.0, "dense2": 4.0, "factor_0": 3.1692731696844385, "factor_1": 2.3768858478243953, "factor_2": 1.2489597949887958, "factor_3": 2.3427374049520107, "factor_4": 3.8806022578946933, "threshold_0": 7.7177222983246185, "threshold_1": 11.807798821351492, "threshold_2": 12.5930051303549, "threshold_3": 10.685186873047932, "threshold_4": 11.759292488418547}, "parameter_index": 0}
+[2023-10-03 18:08:24] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 17,
+  hyperParameters: {
+    value: '{"parameter_id": 17, "parameter_source": "algorithm", "parameters": {"lr": 0.001301158337532704, "epoch": 69.0, "dropout1": 0.20488138328811506, "dropout2": 0.2343610990181826, "dense1": 9.0, "dense2": 4.0, "factor_0": 3.1692731696844385, "factor_1": 2.3768858478243953, "factor_2": 1.2489597949887958, "factor_3": 2.3427374049520107, "factor_4": 3.8806022578946933, "threshold_0": 7.7177222983246185, "threshold_1": 11.807798821351492, "threshold_2": 12.5930051303549, "threshold_3": 10.685186873047932, "threshold_4": 11.759292488418547}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 18:08:29] INFO (NNIManager) Trial job WQZuv status changed from WAITING to RUNNING
+[2023-10-03 18:08:34] INFO (NNIManager) Trial job p2wug status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:08:34] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 18, "parameter_source": "algorithm", "parameters": {"lr": 0.0723561083404542, "epoch": 36.0, "dropout1": 0.28116870865721344, "dropout2": 0.22562262711024808, "dense1": 2.0, "dense2": 3.0, "factor_0": 1.8286849525431537, "factor_1": 3.013941227785185, "factor_2": 3.8627668417661853, "factor_3": 3.001594967087353, "factor_4": 1.5695203782290355, "threshold_0": 11.740335279888455, "threshold_1": 12.80749918487404, "threshold_2": 12.199974928757616, "threshold_3": 12.719266129212013, "threshold_4": 8.712743943131038}, "parameter_index": 0}
+[2023-10-03 18:08:39] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 18,
+  hyperParameters: {
+    value: '{"parameter_id": 18, "parameter_source": "algorithm", "parameters": {"lr": 0.0723561083404542, "epoch": 36.0, "dropout1": 0.28116870865721344, "dropout2": 0.22562262711024808, "dense1": 2.0, "dense2": 3.0, "factor_0": 1.8286849525431537, "factor_1": 3.013941227785185, "factor_2": 3.8627668417661853, "factor_3": 3.001594967087353, "factor_4": 1.5695203782290355, "threshold_0": 11.740335279888455, "threshold_1": 12.80749918487404, "threshold_2": 12.199974928757616, "threshold_3": 12.719266129212013, "threshold_4": 8.712743943131038}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2023-10-03 18:08:44] INFO (NNIManager) Trial job ggMSI status changed from WAITING to RUNNING
+[2023-10-03 18:08:59] INFO (NNIManager) Trial job PjYop status changed from RUNNING to SUCCEEDED
+[2023-10-03 18:08:59] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 19, "parameter_source": "algorithm", "parameters": {"lr": 0.00173645198767162, "epoch": 69.0, "dropout1": 0.24078538906613253, "dropout2": 0.17622916906569308, "dense1": 9.0, "dense2": 9.0, "factor_0": 3.3628259012731343, "factor_1": 2.389707532506775, "factor_2": 3.777912303409483, "factor_3": 1.2186854553912156, "factor_4": 3.9126964670518127, "threshold_0": 11.280311303419026, "threshold_1": 9.623678134543125, "threshold_2": 9.725403434718329, "threshold_3": 7.810202067163964, "threshold_4": 10.2982542718358}, "parameter_index": 0}

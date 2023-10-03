@@ -1,0 +1,1 @@
+ME000307{"parameter_id": 8, "trial_job_id": "dmi9F", "type": "FINAL", "sequence": 0, "value": "{\"testScore\": 96.70570625, \"testavgFB\": 0.9797243750000001, \"testG\": 0.9375, \"trainScore\": 95.18037166666666, \"trainavgFB\": 0.9811481666666666, \"trainG\": 0.8833333333333333, \"default\": 95.18037166666666}"}

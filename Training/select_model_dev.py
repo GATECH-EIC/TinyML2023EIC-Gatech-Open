@@ -49,61 +49,25 @@ def get_subjects(csvf):
             ids.add(row[1].split('-')[0])
     return list(ids)
 
-def txt_to_numpy(filename, row, merge_mode):
+def txt_to_numpy(filename, row):
     file = open(filename)
     lines = file.readlines()
     datamat = np.arange(row, dtype=np.float)
     row_count = 0
-    if merge_mode == "none":
-        for line in lines:
-            line = line.strip().split(' ')
-            datamat[row_count] = line[0]
-            row_count += 1
-    elif merge_mode == "average":
-        for i in range(1, len(lines), 2):
-            line_pre, line = lines[i-1].strip().split(' '), lines[i].strip().split(' ')
-            datamat[row_count] = (float(line_pre[0]) + float(line[0])) / 2.
-            row_count += 1
-    elif merge_mode == "erase":
-        for i in range(2, len(lines), 3):
-            line_2, line_pre, line = lines[i-2].strip().split(' '), lines[i-1].strip().split(' '), lines[i].strip().split(' ')
-            datamat[row_count] = (float(line_pre[0]) + float(line_2[0])) / 2.
-            row_count += 1
-            datamat[row_count] = (float(line_pre[0]) + float(line[0])) / 2.
-            row_count += 1
-    elif merge_mode == "drop_last":
-        for i in range(len(lines) // 2):
-            line = lines[i].strip().split(' ')
-            datamat[row_count] = line[0]
-            row_count += 1
-    elif merge_mode == "drop_first":
-        for i in range(len(lines) // 2, len(lines)):
-            line = lines[i].strip().split(' ')
-            datamat[row_count] = line[0]
-            row_count += 1
-    elif merge_mode == "remain_first":
-        for i in range(0, len(lines) // 4):
-            line = lines[i].strip().split(' ')
-            datamat[row_count] = line[0]
-            row_count += 1
-    elif merge_mode == "remain_last":
-        for i in range(len(lines) - (len(lines) // 4), len(lines)):
-            line = lines[i].strip().split(' ')
-            datamat[row_count] = line[0]
-            row_count += 1
-    else:
-        assert True, "Unsupported merge mode"
+    for line in lines:
+        line = line.strip().split(' ')
+        datamat[row_count] = line[0]
+        row_count += 1
 
     return datamat
 
 class DataGenerator(tf.keras.utils.Sequence):
-  def __init__(self, root_dir, indice_dir, mode, size, merge_mode, subject_id=None,
+  def __init__(self, root_dir, indice_dir, mode, size, subject_id=None,
                append_path=False):
         self.root_dir = root_dir
         self.indice_dir = indice_dir
         self.size = size
         self.names_list = []
-        self.merge_mode = merge_mode
         self.append_path = append_path
 
         csvdata_all = loadCSV(os.path.join(self.indice_dir, mode + '_indice.csv'))
@@ -124,7 +88,7 @@ class DataGenerator(tf.keras.utils.Sequence):
       print(text_path + 'does not exist')
       return None
 
-    IEGM_seg = txt_to_numpy(text_path, self.size, self.merge_mode).reshape(1, self.size, 1)
+    IEGM_seg = txt_to_numpy(text_path, self.size).reshape(1, self.size, 1)
     # sample = np.array(IEGM_seg, label)
     label = int(self.names_list[idx].split(' ')[1])
     sample = np.append(IEGM_seg, label)
@@ -135,46 +99,18 @@ class DataGenerator(tf.keras.utils.Sequence):
 
 # remain the model with v1 version
 def model_features(input_size, params):
-    if int(params['dense3']) != 0:
-        model = keras.Sequential([
-            keras.layers.Input(shape=input_size),
-            keras.layers.Flatten(),
-            keras.layers.Dropout(float(params['dropout1'])),
-            keras.layers.Dense(int(params['dense1'])),
-            keras.layers.BatchNormalization(),
-            keras.layers.ReLU(),
-            keras.layers.Dropout(float(params['dropout2'])),
-            keras.layers.Dense(int(params['dense2'])),
-            keras.layers.BatchNormalization(),
-            keras.layers.ReLU(),
-            keras.layers.Dropout(float(params['dropout3'])),
-            keras.layers.Dense(int(params['dense3'])),
-            keras.layers.ReLU(),
-            keras.layers.Dense(2),
-        ])
-    elif int(params['dense2']) != 0:
-        model = keras.Sequential([
-            keras.layers.Input(shape=input_size),
-            keras.layers.Flatten(),
-            keras.layers.Dropout(float(params['dropout1'])),
-            keras.layers.Dense(int(params['dense1'])),
-            keras.layers.BatchNormalization(),
-            keras.layers.ReLU(),
-            keras.layers.Dropout(float(params['dropout2'])),
-            keras.layers.Dense(int(params['dense2'])),
-            keras.layers.ReLU(),
-            keras.layers.Dense(2),
-        ])
-    else:
-        model = keras.Sequential([
-            keras.layers.Input(shape=input_size),
-            keras.layers.Flatten(),
-            keras.layers.BatchNormalization(),
-            keras.layers.Dropout(float(params['dropout1'])),
-            keras.layers.Dense(int(params['dense1'])),
-            keras.layers.ReLU(),
-            keras.layers.Dense(2),
-        ])
+    model = keras.Sequential([
+        keras.layers.Input(shape=input_size),
+        keras.layers.Flatten(),
+        keras.layers.Dropout(float(params['dropout1'])),
+        keras.layers.Dense(int(params['dense1'])),
+        keras.layers.BatchNormalization(),
+        keras.layers.ReLU(),
+        keras.layers.Dropout(float(params['dropout2'])),
+        keras.layers.Dense(int(params['dense2'])),
+        keras.layers.ReLU(),
+        keras.layers.Dense(2),
+    ])
     return model
 
 
@@ -293,14 +229,14 @@ def run_once(args):
     add_noise = True
 
     train_generator = DataGenerator(root_dir=path_data, indice_dir=path_indices, mode='train', 
-                                    size=SIZE, merge_mode=args.merge_mode)
+                                    size=SIZE)
     train_dataset = tf.data.Dataset.from_tensor_slices(train_generator)
     train_dataset = train_dataset.shuffle(10).batch(len(train_generator))
     train_dataset = train_dataset.repeat()
     train_iterator = iter(train_dataset)
 
     test_generator = DataGenerator(root_dir=path_data, indice_dir=path_indices, mode='test',
-                                    size=SIZE, merge_mode=args.merge_mode)
+                                    size=SIZE)
     test_dataset = tf.data.Dataset.from_tensor_slices(test_generator)
     test_dataset = test_dataset.shuffle(10).batch(len(test_generator))
     test_dataset = test_dataset.repeat()
@@ -435,7 +371,7 @@ def run_once(args):
         mylists = []
         for subject in subjects:
             test_generator = DataGenerator(root_dir=path_data, indice_dir=path_indices, mode=score_mode,
-                                        size=SIZE, merge_mode=args.merge_mode, subject_id=subject)
+                                        size=SIZE, subject_id=subject)
             test_dataset = tf.data.Dataset.from_tensor_slices(test_generator)
             test_dataset = test_dataset.shuffle(10).batch(len(test_generator))
             test_dataset = test_dataset.repeat()
