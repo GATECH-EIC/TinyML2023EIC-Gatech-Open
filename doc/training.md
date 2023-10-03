@@ -29,6 +29,12 @@ This will train 1000 models with selected hyper-parameters, and store results in
 > + model weights in tflite: train_ckpt/model_best
 > + training logs: log/model_best
 
+In train_ckpt/model_best, we have:  
+> + FLOAT16.tflite model with float16 quantization in tflite format
+> + INT8.tflite model with quant aware training in int8 in tflite format
+> + NONE.tflite model without quantization in tflite format
+> + Original.h5 model without quantization in keras format
+
 We also provide a simple analyse script, run  
 ```bash
 cd train_result
