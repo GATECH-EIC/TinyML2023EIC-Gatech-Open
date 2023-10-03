@@ -4,7 +4,6 @@ Date: 2023-09-19 00:06:59
 LastEditors: Xiao Luo lxiao70@gatech.edu
 LastEditTime: 2023-09-22 22:56:20
 FilePath: /TinyML2023EIC-Gatech/Training/train_result/analyse.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
 import csv
 from collections import defaultdict
@@ -13,7 +12,7 @@ import numpy as np
 import re
 
 # 指定CSV文件所在的目录
-directory = './pca'  # 你的CSV文件目录路径
+directory = './model_best'  # 你的CSV文件目录路径
 
 # 创建一个默认字典，用于存储数据
 data_dict = defaultdict(list)
@@ -59,7 +58,7 @@ for key, value in data_dict.items():
     }
     avgScore[key] = analysis
 print("Model Avg Train Std Train Avg Val Std Val Max Combine(Train+Test)       Max Idx")
-f = open("./pca.csv", "w")
+f = open("./model_best.csv", "w")
 f.write("Model,Avg Train,Std Train,Avg Val,Std Val,Max Combine(Train+Test),Max Idx\n")
 for key, value in avgScore.items():
     model = key

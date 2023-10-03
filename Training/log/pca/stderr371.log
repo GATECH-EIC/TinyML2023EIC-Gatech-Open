@@ -1,2 +1,0 @@
-/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/site-packages/tensorflow/lite/python/convert.py:765: UserWarning: Statistics for quantized inputs were expected, but not specified; continuing anyway.
-  warnings.warn("Statistics for quantized inputs were expected, but not "
