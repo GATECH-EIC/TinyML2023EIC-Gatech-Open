@@ -1,0 +1,1012 @@
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.390806: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.390922: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.391002: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.391018: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.391072: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.391105: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.391160: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.391217: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+2023-09-25 15:29:11.405651: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.405729: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.405753: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:29:11.406431: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:29:11.414987: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.415064: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.415112: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:29:11.415825: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:29:11.421390: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.421469: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.421516: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:29:11.422243: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+2023-09-25 15:29:11.422626: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.422705: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:29:11.422732: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:29:11.423428: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+Start2
+Start2
+Start2
+Start2
+Start2
+Start3
+Start3
+Start3
+Start3
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+Start3
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+^CTraceback (most recent call last):
+  File "train.py", line 596, in <module>
+    results = {(result.get()[0], result.get()[1], PARAMS[idx]["score"]): result.get()[2] for id
+x, result in enumerate(results)}
+  File "train.py", line 596, in <dictcomp>
+    results = {(result.get()[0], result.get()[1], PARAMS[idx]["score"]): result.get()[2] for id
+x, result in enumerate(results)}
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/multiprocessing/pool.py", line 651, in
+ get
+    self.wait(timeout)
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/multiprocessing/pool.py", line 648, in
+ wait
+    self._event.wait(timeout)
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/threading.py", line 296, in wait
+    waiter.acquire()
+KeyboardInterrupt
+(tinyml) hyou37@eic-gt-gpu2:/data/hyou37/TinyML2023EIC-Gatech/Training$
+(tinyml) hyou37@eic-gt-gpu2:/data/hyou37/TinyML2023EIC-Gatech/Training$ python train.py --param
+_path ./nni_params/features_extr_5v3.json
+2023-09-25 15:30:03.801374: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:30:03.937390: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:03.937437: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] I
+gnore above cudart dlerror if you do not have a GPU set up on your machine.
+2023-09-25 15:30:04.479718: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:04.479787: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.s
+o.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/y
+ipin/tool/clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:04.479802: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warn
+ing: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT,
+please make sure the missing libraries mentioned above are installed properly.
+Start1
+Start1
+Start1
+Start1
+Start1
+2023-09-25 15:30:05.632596: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.632714: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.632786: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.632858: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.649386: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.649478: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.649524: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.649579: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.652157: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.652277: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.652344: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.652426: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.658053: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.658135: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.658197: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:05.658892: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:30:05.659710: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.659799: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.659843: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.659893: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.660289: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.660382: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.660431: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.660485: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.675301: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.675382: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.675429: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:05.676138: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+2023-09-25 15:30:05.680172: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.680252: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.680281: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:05.680945: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:30:05.686439: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.686523: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.686564: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:05.686855: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.686942: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:05.686969: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:05.687203: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:30:05.687683: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+Start2
+Start2
+Start2
+Start2
+Start2
+Start3
+Start3
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+Start3
+Start3
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+Start3
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+^CTraceback (most recent call last):
+  File "train.py", line 596, in <module>
+    results = {(result.get()[0], result.get()[1], PARAMS[idx]["score"]): result.get()[2] for id
+x, result in enumerate(results)}
+  File "train.py", line 596, in <dictcomp>
+    results = {(result.get()[0], result.get()[1], PARAMS[idx]["score"]): result.get()[2] for id
+x, result in enumerate(results)}
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/multiprocessing/pool.py", line 651, in
+ get
+    self.wait(timeout)
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/multiprocessing/pool.py", line 648, in
+ wait
+    self._event.wait(timeout)
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/threading.py", line 296, in wait
+    waiter.acquire()
+KeyboardInterrupt
+(tinyml) hyou37@eic-gt-gpu2:/data/hyou37/TinyML2023EIC-Gatech/Training$ python train.py --param
+_path ./nni_params/features_extr_5v3.json
+2023-09-25 15:30:47.070047: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:30:47.176578: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:47.176623: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] I
+gnore above cudart dlerror if you do not have a GPU set up on your machine.
+2023-09-25 15:30:47.709117: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:47.709181: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.s
+o.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/y
+ipin/tool/clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:47.709194: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warn
+ing: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT,
+please make sure the missing libraries mentioned above are installed properly.
+Start1
+Start1
+Start1
+Start1
+Start1
+2023-09-25 15:30:48.830385: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.830477: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.830529: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.830630: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.859503: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.859600: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.859702: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:48.860446: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:30:48.861417: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.861540: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.861616: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.861687: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.864935: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.865031: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.865105: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.865156: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.866931: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.867031: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.867087: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.867156: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.872233: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.872337: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.872398: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.872446: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+2023-09-25 15:30:48.892612: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.892691: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.892712: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:48.893475: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:30:48.895635: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.895710: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.895760: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:48.896530: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:30:48.896938: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.897025: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.897055: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:48.897813: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:30:48.903934: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.904015: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:30:48.904056: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:30:48.904802: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+Start2
+Start2
+Start2
+Start2
+Start2
+Start3
+Start3
+Start3
+Start3
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+After copy
+0/24588Start3
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+After copy
+0/24588Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+After copy
+0/24588multiprocessing.pool.RemoteTraceback:
+"""
+Traceback (most recent call last):
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/multiprocessing/pool.py", line 121, in
+ worker
+    result = (True, func(*args, **kwds))
+  File "train.py", line 460, in run_group
+    scores = run_and_save(i, args, params)
+  File "train.py", line 454, in run_and_save
+    scores, _ = run_once(i, args)
+  File "train.py", line 330, in run_once
+    x_aug[i] = x_aug[i] + noise
+ValueError: assignment destination is read-only
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "train.py", line 596, in <module>
+    results = {(result.get()[0], result.get()[1], PARAMS[idx]["score"]): result.get()[2] for id
+x, result in enumerate(results)}
+  File "train.py", line 596, in <dictcomp>
+    results = {(result.get()[0], result.get()[1], PARAMS[idx]["score"]): result.get()[2] for id
+x, result in enumerate(results)}
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/multiprocessing/pool.py", line 657, in
+ get
+    raise self._value
+ValueError: assignment destination is read-only
+(tinyml) hyou37@eic-gt-gpu2:/data/hyou37/TinyML2023EIC-Gatech/Training$ python train.py --param
+_path ./nni_params/features_extr_5v3.json
+2023-09-25 15:32:36.559688: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:32:36.665697: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:36.665743: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] I
+gnore above cudart dlerror if you do not have a GPU set up on your machine.
+2023-09-25 15:32:37.197710: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:37.197773: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.s
+o.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/y
+ipin/tool/clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:37.197784: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warn
+ing: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT,
+please make sure the missing libraries mentioned above are installed properly.
+Start1
+Start1
+Start1
+Start1
+Start1
+2023-09-25 15:32:38.322669: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.322754: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.322834: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.322894: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.333260: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.333344: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.333423: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.333472: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.348492: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.348577: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.348670: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.348719: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.350272: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.350361: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.350412: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.350397: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.350465: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.350486: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot op
+en shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clan
+g+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.350541: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.350591: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open
+ shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+
+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.352157: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.352236: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.352259: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:32:38.353015: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:32:38.363391: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.363468: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.363518: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:32:38.364312: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+2023-09-25 15:32:38.378582: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.378656: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.378696: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:32:38.379473: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:32:38.380934: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.380952: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: canno
+t open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/
+clang+llvm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.381018: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.381062: W tensorflow/compiler/xla/stream_executor/platform/default/dso_load
+er.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open s
+hared object file: No such file or directory; LD_LIBRARY_PATH: /data/hyou37/yipin/tool/clang+ll
+vm-11.0.0-x86_64-linux-gnu-ubuntu-20.04/lib
+2023-09-25 15:32:38.381065: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:32:38.381109: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlo
+pen some GPU libraries. Please make sure the missing libraries mentioned above are installed pr
+operly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu
+ for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-09-25 15:32:38.381837: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-25 15:32:38.381837: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlo
+w binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU
+ instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+train.py:84: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To s
+ilence this warning, use `float` by itself. Doing this will not modify any behavior and is safe
+. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20
+.0-notes.html#deprecations
+  datamat = np.arange(row, dtype=np.float)
+Start2
+Start2
+Start2
+Start2
+Start2
+Start3
+Start3
+Start3
+Start3
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+After copy   C_CONTIGUOUS : True
+  F_CONTIGUOUS : False
+  OWNDATA : False
+  WRITEABLE : False
+  ALIGNED : True
+  WRITEBACKIFCOPY : False
+  UPDATEIFCOPY : False
+   C_CONTIGUOUS : True
+  F_CONTIGUOUS : True
+  OWNDATA : True
+  WRITEABLE : True
+  ALIGNED : True
+  WRITEBACKIFCOPY : False
+  UPDATEIFCOPY : False
+
+0/24588Start3
+Start4
+Before copy (24588, 1250, 1) (24588,) <class 'numpy.ndarray'> <class 'tensorflow.python.framewo
+rk.ops.EagerTensor'>
+After copy   C_CONTIGUOUS : True
+  F_CONTIGUOUS : False
+  OWNDATA : False
+  WRITEABLE : False
+  ALIGNED : True
+  WRITEBACKIFCOPY : False
+  UPDATEIFCOPY : False
+   C_CONTIGUOUS : True
+  F_CONTIGUOUS : True
+  OWNDATA : True
+  WRITEABLE : True
+  ALIGNED : True
+  WRITEBACKIFCOPY : False
+  UPDATEIFCOPY : False
+
+0/24588multiprocessing.pool.RemoteTraceback:
+"""
+Traceback (most recent call last):
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/multiprocessing/pool.py", line 121, in
+ worker
+    result = (True, func(*args, **kwds))
+  File "train.py", line 460, in run_group
+    scores = run_and_save(i, args, params)
+  File "train.py", line 454, in run_and_save
+    scores, _ = run_once(i, args)
+  File "train.py", line 330, in run_once
+    x_aug[i] = x_aug[i] + noise
+ValueError: assignment destination is read-only
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "train.py", line 596, in <module>
+    results = {(result.get()[0], result.get()[1], PARAMS[idx]["score"]): result.get()[2] for id
+x, result in enumerate(results)}
+  File "train.py", line 596, in <dictcomp>
+    results = {(result.get()[0], result.get()[1], PARAMS[idx]["score"]): result.get()[2] for id
+x, result in enumerate(results)}
+  File "/data/hyou37/anaconda3/envs/tinyml/lib/python3.7/multiprocessing/pool.py", line 657, in
+ get
+    raise self._value
+ValueError: assignment destination is read-only
+(tinyml) hyou37@eic-gt-gpu2:/data/hyou37/TinyML2023EIC-Gatech/Training$

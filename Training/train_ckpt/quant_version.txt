@@ -1,0 +1,3 @@
+v1: post-training quant
+v2: quant-aware training
+v3: weight clustering

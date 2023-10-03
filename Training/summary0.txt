@@ -1,0 +1,8 @@
+Merge Mode		best FB
+erase               0.9577695776957771
+average 		 0.9424170030480271
+drop_first 		 0.960538264674317
+drop_last 		 0.9582542694497155
+remain_first 		 0.942585708384965
+remain_last 		 0.9468383688294535
+none 		 0.9663346777512551
