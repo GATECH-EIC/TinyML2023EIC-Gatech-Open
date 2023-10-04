@@ -39,5 +39,5 @@ We also provide a simple analyse script, run
 ```bash
 python analyse.py
 ```
-This will output detection performance report and stored in model_best.csv.  
+This will output detection performance report and stored in train_result/model_best/model_best.csv.   
 
