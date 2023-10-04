@@ -7,9 +7,8 @@ import random
 import tensorflow as tf
 from tensorflow import keras
 from keras.optimizers import Adam
-from utils import stats_report, get_metrics
+from utils import stats_report
 from swa.tfkeras import SWA
-from decision_b import dt_infer
 import nni
 
 SIZE=1250
