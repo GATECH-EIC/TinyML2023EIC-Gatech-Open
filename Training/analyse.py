@@ -1,10 +1,3 @@
-'''
-Author: Xiao Luo lxiao70@gatech.edu
-Date: 2023-09-19 00:06:59
-LastEditors: Xiao Luo lxiao70@gatech.edu
-LastEditTime: 2023-09-22 22:56:20
-FilePath: /TinyML2023EIC-Gatech/Training/train_result/analyse.py
-'''
 import csv
 from collections import defaultdict
 import os
