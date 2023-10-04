@@ -37,7 +37,6 @@ In train_ckpt/model_best, we have:
 
 We also provide a simple analyse script, run  
 ```bash
-cd train_result
 python analyse.py
 ```
 This will output detection performance report and stored in model_best.csv.  
