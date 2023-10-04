@@ -25,7 +25,7 @@ def sort_key(filename):
     if match:
         return int(match.group())
     return 0
-csv_files = [f for f in os.listdir(directory) if f.endswith('.csv')]
+csv_files = [f for f in os.listdir(directory) if f.endswith('.csv') and f.startswith('summary')]
 csv_files = sorted(csv_files, key=sort_key)
 
 # 逐个处理CSV文件
