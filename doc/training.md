@@ -24,7 +24,7 @@ python train.py --param_path <hyper-parameter, store in json file>
 # For example, you can run
 # python train.py --param_path ./nni_params/features_extr_5v3.json
 ```
-This will train 1000 models with selected hyper-parameters, and store results in:  
+This will train 1000 models with selected hyper-parameters, create dirs and store results in:  
 > + detection performance: train_result/model_best/{model_index}
 > + model weights in tflite: train_ckpt/model_best/{model_index}
 > + training logs: log/model_best/{model_index}

@@ -39,6 +39,6 @@ experiment.config.tuner.class_args = {
 experiment.config.max_trial_number = 1500  # 最多尝试实验个数
 experiment.config.trial_concurrency = 10  # 同时实验个数
 
-experiment.run(port=23400)
+experiment.run(port=25000)
 input() # avoid experiment stop when tasks done
 experiment.stop()

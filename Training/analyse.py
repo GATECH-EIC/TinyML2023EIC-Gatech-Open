@@ -13,7 +13,9 @@ import re
 
 # 指定CSV文件所在的目录
 directory = './train_result/model_best'  # 你的CSV文件目录路径
-
+if not os.path.exists(directory):
+    print(f"{directory} not found, please run train.py first")
+    exit(0)
 # 创建一个默认字典，用于存储数据
 data_dict = defaultdict(list)
 
@@ -58,7 +60,7 @@ for key, value in data_dict.items():
     }
     avgScore[key] = analysis
 print("Model Avg Train Std Train Avg Val Std Val Max Combine(Train+Test)       Max Idx")
-f = open("./model_best.csv", "w")
+f = open(f"{directory}/model_best.csv", "w")
 f.write("Model,Avg Train,Std Train,Avg Val,Std Val,Max Combine(Train+Test),Max Idx\n")
 for key, value in avgScore.items():
     model = key

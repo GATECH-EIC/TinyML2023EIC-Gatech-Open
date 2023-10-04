@@ -337,9 +337,6 @@ def parse_args():
 
 def run_once(count, args, verbose=False):
     os.makedirs(f"./train_ckpt/{result_dir}/{count}", exist_ok=True)
-    os.makedirs("./20_10", exist_ok=True)
-    os.makedirs("./result", exist_ok=True)
-    os.makedirs("./ckpt", exist_ok=True)
 
     # Hyperparameters
     LR = args.lr
@@ -662,6 +659,9 @@ if __name__ == '__main__':
 
     os.makedirs(f"./train_result/{result_dir}", exist_ok=True)
     os.makedirs(f"./log/{result_dir}", exist_ok=True)
+    os.makedirs("./20_10", exist_ok=True)
+    os.makedirs("./result", exist_ok=True)
+    os.makedirs("./ckpt", exist_ok=True)
 
     # train model with hyper-params config, args.param_path is the path of hyper-params
     import json
