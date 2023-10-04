@@ -428,4 +428,9 @@ def save_tf(path, model):
 
 if __name__ == '__main__':
     args = parse_args()
+
+    os.makedirs("./20_10", exist_ok=True)
+    os.makedirs("./result", exist_ok=True)
+    os.makedirs("./ckpt", exist_ok=True)
+
     run_once(args)

@@ -1,2 +1,0 @@
-[2023-10-03 17:59:08] INFO (nni.tuner.tpe/MainThread) Using random seed 1313092887
-[2023-10-03 17:59:08] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher started

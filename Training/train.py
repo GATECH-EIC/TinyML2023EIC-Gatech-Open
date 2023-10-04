@@ -296,7 +296,7 @@ def feature_extract(x: np.ndarray, nni_params, verbose=True):
     if verbose:
         print()
 
-
+    features_list = np.array(features_list).astype("float32")
     features_list = features_list.reshape(features_list.shape[0], features_list.shape[1], 1)
     print(features_list.shape)
     return features_list
@@ -336,6 +336,11 @@ def parse_args():
     return args
 
 def run_once(count, args, verbose=False):
+    os.makedirs(f"./train_ckpt/{result_dir}/{count}", exist_ok=True)
+    os.makedirs("./20_10", exist_ok=True)
+    os.makedirs("./result", exist_ok=True)
+    os.makedirs("./ckpt", exist_ok=True)
+
     # Hyperparameters
     LR = args.lr
     EPOCH = args.epoch
@@ -654,6 +659,10 @@ def start_metrics(i, params, args, verbose):
 
 if __name__ == '__main__':
     args = parse_args()
+
+    os.makedirs(f"./train_result/{result_dir}", exist_ok=True)
+    os.makedirs(f"./log/{result_dir}", exist_ok=True)
+
     # train model with hyper-params config, args.param_path is the path of hyper-params
     import json
     with open(args.param_path) as file:
@@ -683,6 +692,7 @@ if __name__ == '__main__':
             r.wait()
             if not r.successful():
                 print(r.get())
+                pool.terminate()
                 exit(0)
             progress_bar.update(1)
 

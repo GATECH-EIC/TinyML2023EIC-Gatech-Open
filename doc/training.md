@@ -20,14 +20,14 @@ We also provide one [selected hyper-parameters](../Training/nni_params/features_
 ## Train more models with selected hyper-parameters and select the best one
 Run  
 ```bash
-python train.py --pram_path <hyper-parameter, store in json file>
+python train.py --param_path <hyper-parameter, store in json file>
 # For example, you can run
-# python train.py --pram_path ./nni_params/features_extr_5v3.json
+# python train.py --param_path ./nni_params/features_extr_5v3.json
 ```
 This will train 1000 models with selected hyper-parameters, and store results in:  
-> + detection performance: train_result/model_best
-> + model weights in tflite: train_ckpt/model_best
-> + training logs: log/model_best
+> + detection performance: train_result/model_best/{model_index}
+> + model weights in tflite: train_ckpt/model_best/{model_index}
+> + training logs: log/model_best/{model_index}
 
 In train_ckpt/model_best, we have:  
 > + FLOAT16.tflite model with float16 quantization in tflite format

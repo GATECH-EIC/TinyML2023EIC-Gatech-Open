@@ -1,5 +1,5 @@
 from nni.experiment import Experiment
-
+import os
 
 search_space_model_features = {
     'lr': {'_type': 'loguniform', '_value': [0.0001, 0.3]},
@@ -19,6 +19,8 @@ search_space_model_features = {
     "threshold_3": {'_type': 'uniform', '_value': [7, 13]},
     "threshold_4": {'_type': 'uniform', '_value': [7, 13]},
 }
+
+os.makedirs("./nni_expr", exist_ok=True)
 
 command_modelfeatures = "python select_model_dev.py \
     --model model_features \

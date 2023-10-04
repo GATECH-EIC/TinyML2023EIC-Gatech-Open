@@ -1,1 +1,0 @@
-ME000306{"parameter_id": 6, "trial_job_id": "rf7rY", "type": "FINAL", "sequence": 0, "value": "{\"testScore\": 96.84185624999999, \"testavgFB\": 0.981669375, \"testG\": 0.9375, \"trainScore\": 95.16605666666666, \"trainavgFB\": 0.9809436666666667, \"trainG\": 0.8833333333333333, \"default\": 95.16605666666666}"}
