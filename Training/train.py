@@ -464,7 +464,7 @@ def run_once(count, args, verbose=False):
     f16_metrics = analyse(f16_save_name, params, verbose)
 
     # for each subject, create a data generator containing all segments in this subject
-    def get_metric(score_mode, verbose):
+    def get_metric(score_mode, my_model, verbose):
         subjects = get_subjects(os.path.join(path_indices, f'{score_mode}_indice.csv'))
         mylists = []
         for subject in subjects:
@@ -498,14 +498,14 @@ def run_once(count, args, verbose=False):
         avgFB, G_score, detection_score = stats_report(mylists, f"{score_mode}_{save_name}")
         return avgFB, G_score, detection_score
     
-    def get_score(verbose, score_mode="all"):
+    def get_score(verbose, my_model, score_mode="all"):
         if score_mode == "all":
-            test_scores = get_score(verbose, "test")
-            train_score = get_score(verbose, "train")
+            test_scores = get_score(verbose, my_model, "test")
+            train_score = get_score(verbose, my_model, "train")
             test_scores.update(train_score)
             return test_scores
         else:
-            avgFB, G_score, detection_score = get_metric(score_mode, verbose)
+            avgFB, G_score, detection_score = get_metric(score_mode, my_model, verbose)
             return {
                 f"{score_mode}Score": detection_score,
                 f"{score_mode}avgFB": avgFB,
@@ -513,7 +513,7 @@ def run_once(count, args, verbose=False):
                 "default": detection_score
             }
         
-    o_metrics = get_score(verbose)
+    o_metrics = get_score(verbose, my_model)
     o_save_name = f'./train_ckpt/{result_dir}/{count}/' + "Original" + '.h5'
     my_model.save(o_save_name)
 
