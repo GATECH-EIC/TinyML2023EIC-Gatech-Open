@@ -4,6 +4,7 @@ Training/__pycache__/
 Training/train_result/
 Training/train_ckpt/
 Training/log
+Training/tinyml_contest_data_training
 *__pycache__*
 Training/20_10
 Training/result
