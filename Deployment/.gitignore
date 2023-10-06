@@ -7,7 +7,6 @@
 .vscode
 
 *.npy
-*.txt
 
 Drivers/
 MDK-ARM/
