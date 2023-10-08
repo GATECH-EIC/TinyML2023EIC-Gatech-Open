@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define MATRIX_TYPE float
 /* The Level of Details of Output - 显示详细等级*/
