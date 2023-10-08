@@ -1,4 +1,0 @@
-name: myenv
-channels:
-  - defaults
-prefix: /data/hyou37/anaconda3/envs/myenv
