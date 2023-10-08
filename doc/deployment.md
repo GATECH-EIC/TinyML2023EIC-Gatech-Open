@@ -4,7 +4,7 @@
 ​
 **All settings are ready in the project file.  If the project file can be opened normally, it does not need to be modified.**
 ​
-Please open the *Deployment/MDK-ARM/deploy2.uvprojx* in Keil6. While ensuring proper hardware connectivity, build and download the project. 
+Please open the *Deployment/MDK-ARM/deploy2.uvprojx* in Keil. While ensuring proper hardware connectivity, build and download the project. 
 ​
 ​
 ​
