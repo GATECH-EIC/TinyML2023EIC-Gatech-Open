@@ -10,4 +10,4 @@
 > + [Training](doc/training.md)
 > + [Deployment](doc/deployment.md)
 
-# Deployment is tested on Keil V5.38. The minimum version requirement is Keil V5.32 #
+** Deployment is tested on Keil V5.38. The minimum version requirement is Keil V5.32 **
