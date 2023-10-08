@@ -1,8 +1,10 @@
+​
+​
 ### 1. For Deployment
 ​
 **All settings are ready in the project file.  If the project file can be opened normally, it does not need to be modified.**
 ​
-Please open the *Deployment/MDK-ARM/deploy2.uvprojx* in Kail. While ensuring proper hardware connectivity, build and download the project. 
+Please open the *Deployment/MDK-ARM/deploy2.uvprojx* in Keil6. While ensuring proper hardware connectivity, build and download the project. 
 ​
 ​
 ​
@@ -50,3 +52,4 @@ Our method extracts some features and inputs them into a three-layer FC.
 ​
 ​
 *weight_genenerate/to_float16.c* file should be compiled and run on PC. This file manually sets the model's original float weights and defines a set of structures that compress two float16 data into a uint32 for the weights in *parameter.c*.
+​
